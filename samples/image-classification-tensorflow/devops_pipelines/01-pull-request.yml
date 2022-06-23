@@ -8,8 +8,6 @@ parameters:
 resources:
   containers:
   - container: mlops
-    image: mlopsmanufacturing/build-agent/tensorflow:latest
-    endpoint: mlopsmanufacturingacr 
 
 trigger: none
 
