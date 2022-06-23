@@ -8,6 +8,7 @@ parameters:
 resources:
   containers:
   - container: mlops
+  image: mcr.microsoft.com/mlops/python:latest
 
 trigger: none
 
